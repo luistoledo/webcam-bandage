@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:webcam bandage.xcodeproj">
+      location = "self:/Users/luis/projects/fun/webcam bandage/webcam-bandage.xcodeproj">
    </FileRef>
 </Workspace>

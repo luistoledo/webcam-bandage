@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A0FA31591E902F76001D82D5"
-               BuildableName = "webcam bandage.app"
-               BlueprintName = "webcam bandage"
-               ReferencedContainer = "container:webcam bandage.xcodeproj">
+               BuildableName = "webcam-bandage.app"
+               BlueprintName = "webcam-bandage"
+               ReferencedContainer = "container:webcam-bandage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0FA31591E902F76001D82D5"
-            BuildableName = "webcam bandage.app"
-            BlueprintName = "webcam bandage"
-            ReferencedContainer = "container:webcam bandage.xcodeproj">
+            BuildableName = "webcam-bandage.app"
+            BlueprintName = "webcam-bandage"
+            ReferencedContainer = "container:webcam-bandage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0FA31591E902F76001D82D5"
-            BuildableName = "webcam bandage.app"
-            BlueprintName = "webcam bandage"
-            ReferencedContainer = "container:webcam bandage.xcodeproj">
+            BuildableName = "webcam-bandage.app"
+            BlueprintName = "webcam-bandage"
+            ReferencedContainer = "container:webcam-bandage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0FA31591E902F76001D82D5"
-            BuildableName = "webcam bandage.app"
-            BlueprintName = "webcam bandage"
-            ReferencedContainer = "container:webcam bandage.xcodeproj">
+            BuildableName = "webcam-bandage.app"
+            BlueprintName = "webcam-bandage"
+            ReferencedContainer = "container:webcam-bandage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

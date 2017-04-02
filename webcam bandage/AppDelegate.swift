@@ -59,21 +59,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     func updateSuspicious() {
+        statusItem.image = NSImage(named: "statusIconUpdating")
+        
         let processes = findSuspiciousProcess().trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
 
         let processesArray = processes.components(separatedBy: "\n")
-
-//        releaseMenuItem.isEnabled = false
-//        releaseMenuItem.action = nil
-//        releaseMenuItem.target = nil
         
-//        processMenu.removeAllItems()
         
+        statusItem.image = NSImage(named: "statusIcon")
         disableItems()
         
         if (processes != "") {
+            
+            statusItem.image = NSImage(named: "statusIconWarning")
 
-//            releaseMenuItem.isEnabled = true
             for process in processesArray {
                 
                 let item = process.components(separatedBy: ",")
@@ -94,6 +93,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     func killSuspiciousProcess() {
+        statusItem.image = NSImage(named: "statusIconUpdating")
+        
         print("releasing")
         print( runScript("KillSuspicious") )
         updateSuspicious()
@@ -109,7 +110,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func enableItems() {
         releaseMenuItem.action = #selector(AppDelegate.releaseClicked)
         releaseMenuItem.target = pmtarget
-//        processMenuItem.action = #selector()
     }
     
     
