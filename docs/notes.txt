@@ -1,0 +1,17 @@
+WeatherBar
+Write a Mac App in Swift! (status bar)
+by bgreenlee.
+
+http://footle.org/WeatherBar/
+https://github.com/bgreenlee/WeatherBar
+
+
+NSTask Tutorial for OS X
+Warren Burton
+
+https://www.raywenderlich.com/125071/nstask-tutorial-os-x
+
+
+stack overflow
+http://stackoverflow.com/questions/29549679/combine-bash-commands-with-each-other
+

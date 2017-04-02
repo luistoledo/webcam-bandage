@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12118"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="vQv-gz-dQf" id="jJr-8Q-za4"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="vQv-gz-dQf" customClass="AppDelegate" customModule="webcam_bandage">
+            <connections>
+                <outlet property="processMenu" destination="ujA-z2-CmY" id="tNH-YG-6Fj"/>
+                <outlet property="processMenuItem" destination="QT6-fT-90N" id="rvp-1O-j5c"/>
+                <outlet property="releaseMenuItem" destination="3pP-c4-ckg" id="tyH-xQ-NcH"/>
+                <outlet property="statusMenu" destination="1hR-jg-jIQ" id="zT8-Qd-J7E"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="1hR-jg-jIQ">
+            <items>
+                <menuItem title="Process" id="QT6-fT-90N">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Process" id="ujA-z2-CmY"/>
+                </menuItem>
+                <menuItem title="Release camera" id="3pP-c4-ckg">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="releaseClicked:" target="vQv-gz-dQf" id="CbZ-Iq-U2P"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="tSg-w9-NF3">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="vQv-gz-dQf" id="8i8-Rb-AX7"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <connections>
+                <outlet property="delegate" destination="vQv-gz-dQf" id="Fv8-TK-8Ft"/>
+            </connections>
+        </menu>
+    </objects>
+</document>
